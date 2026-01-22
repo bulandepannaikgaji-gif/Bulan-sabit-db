@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 const BASE_URL = process.env.RENDER_EXTERNAL_URL;
 
 const WEBHOOK_PATH = "/webhook";
-const SHEET_NAME = "DB INCES";
+const SHEET_NAME = "DB SJG";
 
 if (!BOT_TOKEN || !SHEET_ID || !GOOGLE_CREDENTIALS || !BASE_URL) {
   console.error("❌ ENV belum lengkap");
@@ -210,6 +210,7 @@ bot.on("message", msg => {
 });
 
 console.log("🤖 BOT FINAL FIX — FILE PASTI TERKIRIM");
+
 
 
 
